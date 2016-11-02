@@ -72,6 +72,15 @@ $(function(){
 			ul.find('.done').remove();
 			$(this).dequeue;
 		});
+		var newarr=[];
+ 	    for(var i in todos){
+ 		if(todos[i].state==0){
+ 			newarr.push(todos[i])
+ 		   }
+ 	    }
+		todos=newarr;
+	    localStorage.todos=JSON.stringify(todos);
+
 	})
 	
 	
