@@ -106,7 +106,6 @@ $w:100%;
         height: 1.2rem;
         line-height: 1.2rem;
         background:url(../img/bg.jpg);
-//      background-size:658px 303px;
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -117,13 +116,13 @@ $w:100%;
            display:inline-block;
            height:$w;
            width:15px;
-           background:#84DBE4
+           background:#86CBE5;
         }
         .content{
             float:left;
             display:inline-block;
             font-family: "arial black","黑体";
-            color: #84DBE4;
+            color: #86CBE5;
             font-size: 22px;
             padding-left: 15px;
             box-sizing: border-box;
@@ -181,8 +180,8 @@ $w:100%;
     box-sizing: border-box;
 	}
 	div.active{
-	   border-bottom: 2px solid #84DBE4; 
-	   color: #84DBE4;
+	   border-bottom: 2px solid #86CBE5; 
+	   color: #86CBE5;
 	}
 	.remind {
 	box-sizing: border-box;

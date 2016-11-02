@@ -153,14 +153,14 @@ body {
   display: inline-block;
   height: 100%;
   width: 15px;
-  background: #84DBE4;
+  background: #86CBE5;
 }
 
 .list li .content {
   float: left;
   display: inline-block;
   font-family: "arial black","黑体";
-  color: #84DBE4;
+  color: #86CBE5;
   font-size: 22px;
   padding-left: 15px;
   box-sizing: border-box;
@@ -221,8 +221,8 @@ body {
 }
 
 .footer div.active {
-  border-bottom: 2px solid #84DBE4;
-  color: #84DBE4;
+  border-bottom: 2px solid #86CBE5;
+  color: #86CBE5;
 }
 
 .footer .remind {
